@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0A192F; /* dark navy background */
+  color: #CCD6F6; /* light bluish text */
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: #112240; /* deep blue form background */
+  padding: 30px;
+  margin: 50px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(100, 255, 218, 0.5); /* teal glow */
+  
+}
+
+h2 {
+  text-align: center;
+  color: #64FFDA; /* teal heading */
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #64FFDA; /* teal labels */
+}
+
+input[type="text"], /*attribute selector for text input*/
+input[type="email"],
+input[type="textarea"],
+input[type="date"],
+input[type="password"] {
+  width: 35%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #64FFDA; /* teal border */
+  border-radius: 5px;
+background-color: #0A192F;
+  color: #CCD6F6; /* light text */
+}
+
+input::placeholder {
+  color: #8892B0; /* grayish  */
+}
+
+button {
+  width: 8%;
+  background-color: #64FFDA; /* teal button */
+  border: none;
+  border-radius: 5px;
+  color: #0A192F; /* dark text on button */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+button:hover {
+  background-color: #52e0c4; /* lighter teal  */
+}

@@ -1,0 +1,85 @@
+.header{
+    background-color:#0A192F; /* dark navy blue */
+    color: white; /* pure white */
+    text-align: center;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#0A192F; /* dark navy blue */
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color:#64ffda; /* teal green */
+}
+a{
+    text-decoration: none;
+}
+
+.about {
+  background-color: #112240; /* deep blue shade */
+  color: #CCD6F6; /* light bluish gray */
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about h2 {
+  color: #64FFDA; /* teal green */
+  font-size: 32px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.project {
+  background-color: #0A192F; /* dark navy blue */
+  color: #FFFFFF; /* pure white */
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#project1 {
+  border: 1px solid #64FFDA; /* teal green border */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+
+
+
+}
+
+#skills{
+    background-color: #112240; /* deep blue shade */
+    color: #CCD6F6; /* light bluish gray */
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+#email,#git,#linkdn{
+    display:block;
+    text-align: center;
+    text-decoration: none;
+
+}
+#contact{
+    background-color: #112240; /* deep blue shade */
+    color: #CCD6F6; /* light bluish gray */
+    text-align: center;
+    
+}
