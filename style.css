@@ -61,7 +61,7 @@ a{
 #skills {
   background-color: #112240; /* deep blue shade */
   color: #CCD6F6; /* light bluish gray */
-  text-align: left;          /* left align for better readability */
+  text-align: left;         
   padding: 40px 20px;
 }
 
@@ -79,19 +79,22 @@ a{
 }
 
 #skills li {
-  margin-bottom: 8px;        /* gap between each skill */
+  margin-bottom: 8px;        
 }
 
 
-
-
-
-#email,#git,#linkdn{
-    display:block;
+#email, #git, #linkdn {
+    display: inline-block;   
     text-align: center;
     text-decoration: none;
-
+    color: #64FFDA;          /* teal theme */
+    font-weight: bold;
+    margin-left: 5px;
 }
+
+
+
+
 #contact{
     background-color: #112240; /* deep blue shade */
     color: #CCD6F6; /* light bluish gray */
