@@ -82,6 +82,12 @@ a{
   margin-bottom: 8px;        
 }
 
+#contact{
+    background-color: #112240; /* deep blue shade */
+    color: #CCD6F6; /* light bluish gray */
+    text-align: center;
+    
+}
 
 #email, #git, #linkdn {
     display: inline-block;   
@@ -92,12 +98,7 @@ a{
     margin-left: 5px;
 }
 
-
-
-
-#contact{
-    background-color: #112240; /* deep blue shade */
-    color: #CCD6F6; /* light bluish gray */
-    text-align: center;
-    
+#email:hover, #git:hover, #linkdn:hover {
+    text-decoration: underline; /* hover effect */
 }
+
