@@ -61,18 +61,18 @@ a{
 #skills {
   background-color: #112240; /* deep blue shade */
   color: #CCD6F6; /* light bluish gray */
-  text-align: center;        /* center everything */
+  text-align: center;        
   padding: 40px 20px;
 }
 
 #skills ul {
-  list-style-type: square;   /* show square bullets */
-  display: inline-block;     /* center the list box */
-  text-align: left;          /* bullets stay aligned left inside box */
-  margin: 0 auto;            /* center horizontally */
+  list-style-type: square;  
+  display: inline-block;     
+  text-align: left;        
+  margin: 0 auto;            
   font-size: 18px;
   line-height: 1.8;
-  padding-left: 20px;        /* adjust bullet spacing */
+  padding-left: 20px;     
 }
 
     
