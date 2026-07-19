@@ -61,26 +61,22 @@ a{
 #skills {
   background-color: #112240; /* deep blue shade */
   color: #CCD6F6; /* light bluish gray */
-  text-align: left;         
+  text-align: center;       
   padding: 40px 20px;
 }
 
-#skills h2 {
-  color: #64FFDA; /* teal green */
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 #skills ul {
-  list-style-type: square;   /* show square bullets */
-  margin-left: 40px;         /* spacing from left */
+  list-style-type: square;   
+  display: inline-block;    
+  text-align: left;        
+  margin: 0 auto;           
   font-size: 18px;
   line-height: 1.8;
 }
 
-#skills li {
-  margin-bottom: 8px;        
-}
+    
+
+      
 
 #contact{
     background-color: #112240; /* deep blue shade */
