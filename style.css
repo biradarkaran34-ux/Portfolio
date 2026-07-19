@@ -58,15 +58,30 @@ a{
 
 }
 
-#skills{
-    background-color: #112240; /* deep blue shade */
-    color: #CCD6F6; /* light bluish gray */
-    text-align: center;
+#skills {
+  background-color: #112240; /* deep blue shade */
+  color: #CCD6F6; /* light bluish gray */
+  text-align: left;          /* left align for better readability */
+  padding: 40px 20px;
 }
 
-ul{
-    list-style: none;
+#skills h2 {
+  color: #64FFDA; /* teal green */
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+#skills ul {
+  list-style-type: square;   /* show square bullets */
+  margin-left: 40px;         /* spacing from left */
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+#skills li {
+  margin-bottom: 8px;        /* gap between each skill */
+}
+
 
 
 
