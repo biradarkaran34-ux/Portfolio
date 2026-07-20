@@ -115,3 +115,43 @@ button:hover {
 
 
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+  input, button {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  body {
+    margin: 5px;
+  }
+  input, button {
+    font-size: 14px;
+    padding: 6px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 18px;
+  }
+  label {
+    font-size: 12px;
+  }
+  input, button {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+
+
