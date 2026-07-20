@@ -98,4 +98,13 @@ a{
 #email:hover, #git:hover, #linkdn:hover {
     text-decoration: underline; /* hover effect */
 }
+footer {
+  background-color: #0a192f; /* navy background */
+  color: #64ffda;           /* teal text */
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 
