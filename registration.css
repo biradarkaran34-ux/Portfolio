@@ -62,3 +62,56 @@ button {
 button:hover {
   background-color: #52e0c4; /* lighter teal  */
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  header h1 {
+    font-size: 24px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+  section {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    padding: 5px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header h2 {
+    font-size: 16px;
+  }
+  p, li {
+    font-size: 14px;
+  }
+  section {
+    padding: 10px;
+  }
+  a {
+    word-break: break-word; 
+  }
+}
+
+@media (max-width: 320px) {
+  header h1 {
+    font-size: 18px;
+  }
+  header h2 {
+    font-size: 14px;
+  }
+  p, li {
+    font-size: 12px;
+  }
+}
+
+
+
